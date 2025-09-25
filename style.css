@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.container {
+  background-color: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+   text-align: center; 
+}
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+   text-align: center; 
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.results {
+  margin-top: 25px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+.chart-tabs {
+  margin-top: 20px;
+  text-align: center;
+}
+.chart-tabs button {
+  width: auto;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 16px;
+}
+.tradingview-widget-container {
+  margin-top: 20px;
+  height: 400px;
+}
+
+/* Stylish Radio Buttons */
+.radio-group {
+  display: flex;
+  justify-content: center; /* 👈 ab center me */
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.radio-option:hover {
+  background: #e2e2ff;
+}
+
+.radio-option input {
+  display: none;
+}
+
+.radio-option span {
+  font-size: 14px;
+}
+
+.radio-option input:checked + span {
+  color: white;
+  background: #007bff;
+  padding: 6px 12px;
+  border-radius: 6px;
+}

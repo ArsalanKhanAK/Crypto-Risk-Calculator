@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crypto Risk + Chart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Crypto Risk + Chart</h1>
+    
+    <!-- Inputs -->
+    <div class="form-group">
+      <label>Capital ($)</label>
+      <input type="number" id="capital" placeholder="Capital" value="10">
+    </div>
+    <div class="form-group">
+      <label>Entry Price ($)</label>
+      <input type="number" id="entryPrice" placeholder="Entry Price" value="0.0234" step="any">
+    </div>
+    <div class="form-group">
+      <label>Stop Loss ($)</label>
+      <input type="number" id="stopLoss" placeholder="Stop Loss" value="0.0225" step="any">
+    </div>
+    <div class="form-group">
+      <label>Max Risk ($)</label>
+      <input type="number" id="maxRisk" placeholder="Max Risk" value="2" step="any">
+    </div>
+    
+    <button onclick="calculate()">Calculate</button>
+    <div class="results" id="results"></div>
+
+    <!-- Tabs for chart switching -->
+    <div class="chart-tabs"></div>
+
+    <!-- Chart container -->
+    <div id="chart-container" class="tradingview-widget-container"></div>
+  </div>
+
+  <script src="https://s3.tradingview.com/tv.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
