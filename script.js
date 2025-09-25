@@ -110,10 +110,17 @@ function calculate() {
 ⚙️ 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐋𝐞𝐯𝐞𝐫𝐚𝐠𝐞: ${requiredLeverage.toFixed(2)}x
 
 🎯 Take Profit Targets (after fees):
-TP1 (1:2) → 𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp1, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p1.raw}
-TP2 (1:3) → 𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp2, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p2.raw}
-TP3 (1:4) → 𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp3, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p3.raw}
-TP4 (1:5) → 𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp4, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p4.raw}
+TP1 (1:2) → 
+𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp1, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p1.raw}
+
+TP2 (1:3) → 
+𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp2, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p2.raw}
+
+TP3 (1:4) → 
+𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp3, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p3.raw}
+
+TP4 (1:5) → 
+𝐏𝐫𝐢𝐜𝐞: $${formatNumber(tp4, 4)} | ✅𝐏𝐫𝐨𝐟𝐢𝐭: $${p4.raw}
 
 💵 Capital: $${capital}
 📦 Position Size (for $${maxRisk} risk): ${formatNumber(positionSize)} coins
